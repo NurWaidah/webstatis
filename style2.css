@@ -1,0 +1,150 @@
+/*ini adalah comment*/
+
+/*reset*/
+* {
+    margin: 0;
+    padding:0;}
+
+body {
+    font-family: sans-serif;
+    color: black;
+    background-color: rgb(1, 6, 75);
+}
+
+img {
+    width: 1200px;
+    height: 400px;
+    display : flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.gambar1 {
+    width: 500px;
+    height: 250px;
+    margin-left: 20px;
+    float:left; 
+    border-radius: 15px; 
+    margin-right: 15px;
+}
+
+.gambar2 {
+    width: 400px;
+    height: 200px;
+    margin-left: 20px;
+    float:right; 
+    border-radius: 15px; 
+    margin-left: 15px;
+}
+
+.gambar3{
+    width: 100px;
+    height: 150px;
+}
+
+/*paragraf*/
+p { background-color: rgb(1, 6, 75);
+    color:blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+table {
+    color: aliceblue;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5%;
+    width: 50%;
+    border-left: 10px; solid red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+    margin: auto;
+    background-color: rgba(0, 59, 66, 0.959);
+    color: aliceblue;
+    font-size: larger;
+    text-align: center;
+}
+
+td {
+    margin: auto;
+    background-color: rgba(0, 143, 136, 0.973);
+    color: aliceblue;
+    font-size: larger;
+    text-align: center;
+}
+
+#F {
+    background-color: #a3d0ffe7;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius:  10px;
+    border: 5px solid rgb(230, 230, 255);
+} 
+
+#box {
+    background-color: blanchedalmond;
+    width: 500px;
+    height: auto;
+    border: 5px solid black;
+    color: rgb(0, 6, 85);
+    padding: 4px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    border-radius: 10px;
+}
+
+/*link*/
+a {
+    color: rgb(8, 201, 191);
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    background-color: #000000;
+    background-size: cover;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+}
+.fa-square-instagram  {
+    color: whitesmoke;
+    margin-left: 2%; 
+    padding-bottom: 2%;
+ }
+
+ .fa-tiktok{
+    color: whitesmoke;
+    margin-left: 1%;
+    padding-bottom: 2%;
+ }
+
+.wrapper-content {
+    background: rgb(176, 181, 255);
+    text-align: center;
+    color:aliceblue;
+}
