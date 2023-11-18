@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images" href="Gallery/foto/icon.jpg">
+    <title>Harsa & Buana</title>
+
+    <!-- feather icons -->
+    <script src="https://kit.fontawesome.com/0cfd83101a.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styleuts.css">
+
+    <style>
+    @media (max-width: 768px){
+        html{
+            font-size: 62.5%;
+        }
+        img {
+            width: 420px;
+            height: 300px;
+            border-radius: 10%;
+        }
+        
+        .footer i {
+            width: 50px;
+            height: 50px;
+            padding-bottom: 0;
+        }
+
+        .about .row {
+            flex-wrap: wrap;
+        }
+
+        .about .content-1 img, .content-2 img, .content-3 img {
+            object-fit: cover;
+            object-position: center;
+            width: 400px;
+            height: 200px;
+        }
+        
+        .about .content-1 iframe, .content-2 iframe, .content-3 iframe {
+            width: 400px;
+            height: 200px;
+        }
+        .about {
+            padding: 0;
+        }
+        
+        .about  h3 {
+            margin-top: 1 rem;
+            font-size: 1.6rem;
+        }
+
+        .about .content p {
+            font-size: 1.2rem;
+        }
+    }
+    </style>
+</head>
+<body>
+<!-- navbar start -->
+<nav class="navbar">
+    <a href="#" class="navbar-logo">harsa<span>buana</span></a>
+        
+<div class="navbar-nav">
+<a href="index.html#home">Home</a>
+<div class="dropdown">
+    <a href="#"><button class="dropbtn">About<i class="fa fa-caret-down"></i></button></a>
+    <div id="myDropdown" class="dropdown-content">
+        <a href="profil.html">Profil harsabuana</a><br>
+        <a href="Content.html">Recommendation</a><br>
+        <a href="colaboration.html">Collaboration</a>
+    </div></div>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="index.html#registration">Registration</a>
+        <a href="index.html#contact">Contact</a>
+    </div>
+
+<div class="navbar-plus">
+        <a href="#" id="menu"><i class="fa-solid fa-bars fa-2xl"></i></a>
+</div>
+</nav>
+<!-- navbar and -->
+<div class="about">
+<h2>Curug Cikanteh, Kabupaten Sukabumi</h2>
+<div class="aboutt">
+<img src="Gallery/curug cikanteh.jpg" alt="cikanteh">
+<div class="content-1">
+    <p>Curug Cikanteh memiliki tiga tingkatan air terjun, 
+        dengan nama yang berbeda-beda. Air terjun tingkat pertama 
+        yang berada di paling bawah diberi nama Curug Sodong Kembar, sedangkan 
+        air terjun kedua dengan ketinggian 60 meter disebut 
+        sebagai Curug Cikanteh dengan ketinggian 60 meter.
+        Air terjun paling atas dikenal sebagai Curug Ngelay, 
+        ketinggiannya mencapai 100 meter. Masing-masing air 
+        terjun memiliki aliran yang deras, jernih dan terlihat 
+        bersih, sehingga menghasilkan pesona yang sangat indah.</p>
+        <a onclick="cikanteh(event)"><i class="fa-solid fa-ellipsis"></i></a>
+        <div id="cikanteh" style="display: none;">
+    <p>Jika anda beruntung anda dapat merasakan ketenangan di Curug Cikanteh ini.
+        Jika kamu baru pertama kali datang ke Curug Cikanteh kamu dapat menggunakan
+        guide, untuk pemabayaran guide tidak ada patokan pasti.
+        IDR Rp3000,- sampai Rp5000,- (namun tidak ada harga patokan yang pasti).
+    </p></div>
+</div>
+</div>
+    <div class="box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.4877165617772!2d106.49917037383419!3d-7.185054370515475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42a0f05437284d%3A0x2eedfd765406d0b2!2sCurug%20Cikanteh!5e0!3m2!1sid!2sid!4v1700108966932!5m2!1sid!2sid" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+<h2>Curug Seribu, Kabupaten Bogor</h2>
+<div class="aboutt">
+<img src="Gallery/curug-seribu.jpg" alt="Seribu">
+<div class="content-1">
+        <p>Curug Seribu merupakan Curug tertinggi di Bogor,
+            Dinamakan Curug Seribu karena dinding batu air terjun 
+            dikellingi sangat banyak air terjun kecil, dengan latar kerimbunan pepohonan hijau. 
+            Sumber mata airnya berasal dari Gunung Salak, yang mengalir 
+            mengikuti arah Sungai Cikuluwung. Curug Seribu ini berada 
+            di ketinggian antara 750-1.050 mdpl.
+            Akses yang dilalui cukup menguras tenaga bagi kamu yang jarang olahraga, 
+            karena tracking yang dilalui naik turun. Untuk mencapai tujuan diperlukan Waktu 
+            kurang lebih selama 20 menit.</p>
+            <a onclick="seribu(event)"><i class="fa-solid fa-ellipsis"></i></a>
+            <div id="seribu" style="display: none;">
+        <P>Waktu buka Curug Seribu adalah pukul 08.00 - 16.00 WIB. 
+            Lokasi wisata ini buka setiap hari, bahkan hari libur dan akhir pekan. Harga yang teman-teman 
+            dapat siapkan adalah Rp25.000,-/motor untuk pembayaran pertama di gerbang tengah dan 
+            untuk masuk curug Rp20.000,- sudah termasuk parkir.
+        </p></div></div>
+    </div>
+        <div class="box">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.4936038328224!2d106.68063437382655!3d-6.709452365595627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69d18661379e57%3A0x2dd316c22dc2ac10!2sCurug%20Seribu!5e0!3m2!1sid!2sid!4v1700111479204!5m2!1sid!2sid" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+<br>
+<h2>Ranca Upas Penangkaran Rusa, Kabupaten Bandung</h2>
+<div class="aboutt">
+<img src="Gallery/rusaupas.jpg" alt="Rancaupas">
+<div class="content-1">
+        <p>Ranca Upas adalah tempat wisata alam, dengan suasana yang sejuk, dan teman-teman 
+            dapat merasakan berada di alam lepas. Akses untuk menuju ranca upas sudah sangat 
+            bagus dan dapat dilalui motor maupun mobil. waktu tempuh dari Kota Bandung ke Ranca 
+            Upas kurang lebih 2 jam. Ranca Upas Penangkaran Rusa, memiliki rusa yang ramah
+            dan kamu dapat masuk ke penangkarannya untuk foto bersama. Jika teman-teman tertarik untuk memberi makan 
+            rusa disana juga terdapat tempat pembelian makanan rusa. Hal yang menarik saat berkunjung 
+            ke Ranca Upas adalah suasana yang sangat berbeda dengan kota, suasana yang dihiasi kabut, 
+            udara yang sejuk nan asri, dan pemandangan yang Instagramable.</p>
+            <a onclick="upas(event)"><i class="fa-solid fa-ellipsis"></i></a>
+            <div id="upas" style="display: none;">
+        <p>Selain untuk berfoto Ranca Upas juga menyediakan kemah, berenang air panas, dan wisaya outbount. 
+            tiket Masuk Wisatawan Domestik adalah  Rp25.000,- dan tiket Masuk Wisatawan Asing adalah Rp44.000,-. 
+            Wisata alam bandung ini sangat cocok untuk dikunjungi bersama teman atuapun keluarga.
+        </p></div></div>
+    </div>
+        <div class="box">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.9017049214535!2d107.38788928885499!3d-7.137364599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e688c8426ed2497%3A0x1280efaf0adc014f!2sPenangkaran%20Rusa%20Ranca%20Upas!5e0!3m2!1sid!2sid!4v1700112501718!5m2!1sid!2sid" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+</div>
+<footer class="footer">
+    <p>&copy; 2023 desain by Nur Waidah</p>
+</footer>
+    <!-- javascript -->
+    <script src="UTS.js"></script>
+</body>
+</html>
